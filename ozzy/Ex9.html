@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fimdse = ["sábado", "Sábado", "Domingo", "domingo"]
+        const diautil = ["Segunda","segunda","terça", "Terça", "Quarta", "quarta", "quinta", "Quinta", "Sexta", "sexta"]
+        let dia = prompt("Insira o dia de hoje: ")
+        if(fimdse.includes(dia)){
+            document.write("É fim de semana")
+        }else if(diautil.includes(dia)){
+            document.write("É dia util")
+        }else{
+            document.write("Erro")
+        }
+    </script>
+</body>
+</html>
